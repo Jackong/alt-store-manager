@@ -1,5 +1,5 @@
 class Manager {
-    constructor(store, state) {
+    constructor(store, state = {}) {
         store.state = {}
         this.state = store.state[store.displayName] = state
     }
